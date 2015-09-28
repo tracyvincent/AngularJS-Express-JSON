@@ -8,7 +8,7 @@ We have been hired by the federal government to help them speed up the process e
 
 
 ## Technical Requirements
-Our application will request 2 JSON files from two different Express end points (one for Republicans and one for Democrats).
+Our application will request 2 JSON files from two different Express end points (one for Republicans and one for Democrats). There should be 5 canidates in each file.
 
 Two button should be put on the view. One to load the canidates, another to kick off the winner selection. You may display which canidate has been chosen in any way you choose (be creative!).
 
