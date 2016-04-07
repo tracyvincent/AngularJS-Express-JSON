@@ -1,4 +1,4 @@
-# Peer Angular Challenge
+# Angular Challenge
 
 ALL RIGHT! Set up a *NEW* project! From the ground up.
 Bring in Angular, that's all we will need for our project today.
