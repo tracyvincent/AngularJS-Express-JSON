@@ -8,14 +8,12 @@ We have been hired by the federal government to help them speed up the process e
 
 
 ## Technical Requirements
-Our application will request 2 JSON files from two different Express end points (one for Republicans and one for Democrats). There should be 5 canidates in each file.
+Our application will request 2 payloads from two different Express end points (one for Republicans and one for Democrats). Feel free to use real or made up politcians (like there's a difference anymore, amiright?).
 
-Two button should be put on the view. One to load the canidates, another to kick off the winner selection. You may display which canidate has been chosen in any way you choose (be creative!).
+Two buttons should be put on the view. One to load the canidates, another to kick off the winner selection. You may display which canidate has been chosen in any way you choose (be creative!).
 
 ## Hard Mode:
-Style your application with Bootstrap
+Style your application with CSS, make it look presentable (think 'Merica).
 
 ## Pro Mode:
-Add animations to you canidate loading and winner selection.
-
-Once again, the functionality should be similar to what we built in class. NO COPY PASTING CODE from other projects, hand write it.
+Add a third end point to load the winner from (selection not done on the client side).
