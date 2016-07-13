@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="olympianApp">
+  <head>
+    <title>Olympians to Watch</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="vendor/angular.min.js"></script>
+    <script src="js/client.js"></script>
+  </head>
+
+  <body ng-controller="MainController">
+    <div class="wrapper">
+      <header>
+        <h1>Olympians to Watch</h1>
+      </header>
+
+      <button ng-click="getOlympians()">Generate</button>
+        <div ng-if="show">
+          <h3>Weight Lifting</h3>
+          {{ athletes.weightlifting.name }}
+        </br>
+          <span class="city">{{ athletes.weightlifting.origin }}</span>
+
+          <h3>Triathlon</h3>
+          {{ athletes.triathlon.name }}
+        </br>
+          <span class="city">{{ athletes.triathlon.origin }}</span>
+
+          <h3>Archery</h3>
+          {{ athletes.archery.name }}
+        </br>
+          <span class="city">{{ athletes.archery.origin }}</span>
+
+          <h3>Boxing</h3>
+          {{ athletes.boxing.name }}
+        </br>
+          <span class="city">{{ athletes.boxing.origin }}</span>
+
+          <h3>Fencing</h3>
+          {{ athletes.fencing.name }}
+        </br>
+          <span class="city">{{ athletes.fencing.origin }}</span>
+      </div>
+    </div>
+  </body>
+</html>
